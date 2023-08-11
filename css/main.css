@@ -113,6 +113,8 @@ body {
   font-family: 'Noto Serif JP', serif;
   text-align: center;
   margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 2em;
 }
 
 /* 店舗情報セクション */
@@ -250,6 +252,15 @@ body {
   box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
   margin-bottom: 20px;
 }
+
+.menu_item_list{
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+  margin-bottom: 20px;
+}
+
 .menu_item_content {
   width: 45%;
   padding: 10px;
@@ -271,6 +282,7 @@ body {
 
 .menu_item_title {
   font-size: 18px;
+  font-weight: bold;
   font-family: 'Noto Serif JP', serif;
 }
 
